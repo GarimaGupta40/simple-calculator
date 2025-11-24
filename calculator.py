@@ -7,7 +7,8 @@ def calculate(a, b, op):
         raise ValueError("Unsupported operator")
 
 if __name__ == "__main__":
-    print("Simple Calculator - v1")
+    print("Simple Calculator - supports addition and subtraction")
+
 
     a = float(input("Enter first number: "))
     b = float(input("Enter second number: "))
